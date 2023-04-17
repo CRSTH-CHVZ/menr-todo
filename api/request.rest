@@ -6,10 +6,14 @@ POST http://localhost:3001/todo/new
 Content-Type: application/json
 
 {
-  "text": "Pick up boat"
+  "text": "una prueba cualquiera"
 }
 
 
 ###
 
-DELETE http://localhost:3001/todo/delete/643c8bc7e4c2ea2b481fb19e
+DELETE http://localhost:3001/todo/delete/643c921a5dd7ae7df464a3ca
+
+###
+
+PUT http://localhost:3001/todo/complete/643c8b8ce4c2ea2b481fb19c
